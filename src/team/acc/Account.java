@@ -1,16 +1,19 @@
 package team.acc;
-
 public class Account {
 	public enum Level{ADMIN,TEACHER,STUDENT};
-	public enum State{ONLINE,OFFLINE}
+	public enum State{OFFLINE,ONLINE}
 	private State state;
 	private String accountName;
 	private int ID;
 	private  Level level;
 	private String password;
 	
-	public Account() {
-		
+	public Account(int id,String username,String password,Level level,State state) {
+		this.state=state;
+		this.accountName=username;
+		this.ID=id;
+		this.level=level;
+		this.password=password;
 	}
 
 	public State getState() {

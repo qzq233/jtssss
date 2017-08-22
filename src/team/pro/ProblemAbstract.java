@@ -7,8 +7,8 @@ public class ProblemAbstract {
 	private String startTime;
 	private String endTime;
 	
-	public ProblemAbstract(String proName,
-	int proID,
+	public ProblemAbstract(int proID,
+    String proName,
 	int courseID,
 	String startTime,
 	String endTime){
@@ -60,4 +60,3 @@ public class ProblemAbstract {
 	}
 	
 }
-

@@ -2,6 +2,11 @@ package team.acc;
 
 public class Admin extends Account {
 	
+	public Admin(int id, String username, String password, Level level, State state) {
+		super(id, username, password, level, state);
+		// TODO Auto-generated constructor stub
+	}
+
 	public void addStudentToCourse(int studentID, int cousseID){
 		
 	}

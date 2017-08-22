@@ -4,6 +4,11 @@ import team.pro.*;
 import team.jr.*;
 
 public class Teacher extends Account {
+	public Teacher(int id, String username, String password, Level level, State state) {
+		super(id, username, password, level, state);
+		// TODO Auto-generated constructor stub
+	}
+
 	private String course[];
 	private int courseID[];
 	
